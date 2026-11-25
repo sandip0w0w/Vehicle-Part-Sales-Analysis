@@ -1,4 +1,4 @@
-#📌 Vehicle Parts Sales Analysis & Regional Account Performance
+# 📌 Vehicle Parts Sales Analysis & Regional Account Performance
 
 ## Overview
 This project delivers a comprehensive data-driven analysis of vehicle parts sales performance, regional warehouse distribution, and B2B vs. B2C client purchasing behavior. Leveraging relational database queries on CRM order data, this analysis evaluates volume dynamics, revenue contribution across channels, hub efficiency, and product demand patterns to guide inventory management, regional stocking, and revenue optimization strategies.
@@ -24,7 +24,8 @@ This project delivers a comprehensive data-driven analysis of vehicle parts sale
 - **West Warehouse:** Breaking system leads at 501 units, followed by Suspension & traction (299 units) and Miscellaneous (259 units).
 
 ## Question 3 : How is revenue distributed between Wholesale (B2B) and Retail (B2C) clients across each vehicle part product line?
-<img width="600" height="425" alt="image" src="https://github.com/user-attachments/assets/6b856b0b-49a0-4ad4-809b-1d87b80160fd" />
+<img width="597" height="427" alt="image" src="https://github.com/user-attachments/assets/42ccffdb-1e4a-49e3-af7b-0759b7f41c1b" />
+
 
 ## Key Highlights & Answer:
 
@@ -33,10 +34,20 @@ This project delivers a comprehensive data-driven analysis of vehicle parts sale
 - **High-Value Categories:** Frame & body and Suspension & traction represent the highest gross revenue categories for both client types.
 
 ## Question 4 : What is the total annual sales performance for each warehouse, and which product lines are the top and bottom performers per facility?
-<img width="805" height="146" alt="image" src="https://github.com/user-attachments/assets/12240cd5-4ede-457e-b8f2-d69347780be9" />
+<img width="800" height="140" alt="image" src="https://github.com/user-attachments/assets/77d78862-5adc-436c-9266-0a4f2f0f1826" />
 
 ## Key Highlights & Answer:
 
 - **Central Hub Leadership:** Central Warehouse generated the highest revenue at $141,982.88, driven by Suspension & traction as the most sold line and Miscellaneous as the least sold line.
 - **North Performance:** North Warehouse recorded $100,203.63 in total revenue, with Suspension & traction leading sales and Engine parts yielding the lowest turnover.
 - **West Growth Opportunity:** West Warehouse recorded $46,926.49 in revenue, with Frame & body as its top product line and Engine parts as the lowest performer.
+
+## 💡 Final Insights & Strategic Recommendations
+
+### Core Insights
+The empirical findings underscore a strong operational reliance on fast-moving replacement parts (**Suspension & traction** and **Breaking systems**), which reliably drive both high transactional volume and major revenue shares. Regionally, fulfillment capability is heavily centralized, with the Central warehouse accounting for nearly half of overall revenue ($141.98k out of ~$289.11k). Channel-wise, **Wholesale accounts represent the primary financial engine**, delivering over 50% to 60% of total revenue across nearly all major inventory categories. Conversely, major **Engine components** exhibit low sales turnover across all facilities, frequently lagging as the least-sold item in multiple territories.
+
+### Recommendations
+* **Dynamic Regional Stock Allocation:** Realign safety stock thresholds by allocating expanded floor space for high-velocity lines (**Suspension & traction**, **Breaking systems**) at Central and North hubs while minimizing slow-moving **Engine** holdings to cut carrying costs.
+* **Wholesale Loyalty & B2B Expansion:** Develop structured bulk-pricing tiers and commercial credit incentives targeting auto repair chains and regional fleets, specifically around heavy wholesale drivers like **Frame & body** and **Breaking systems**.
+* **West Hub Operational Review:** Conduct a logistics and market demand audit for the West warehouse region to pinpoint root causes for its low revenue performance ($46.9k) relative to Central ($141.9k) and explore regional marketing initiatives to stimulate commercial account acquisition.
